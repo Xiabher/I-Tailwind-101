@@ -1,5 +1,5 @@
 // bg-{color}-{share} 100-900 background colors and shades
-export default function background() {
+export default function Background() {
   return (
     <>
     

@@ -1,5 +1,5 @@
 // bg-{color}-{share} 100-900 background colors and shades
-export default function letterhead() {
+export default function Letterhead() {
   return (
     <>
       <div className="text-center bg-gray-700 w-6/6 h-18 p-2 font-black text-white text-4xl">

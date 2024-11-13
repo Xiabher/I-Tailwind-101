@@ -1,16 +1,19 @@
 // bg-{color}-{share} 100-900 background colors and shades
-export default function background() {
+export default function letterhead() {
   return (
     <>
-      <div className="text-center bg-gray-700 w-6/6 h-32  font-black text-white text-4xl">
-        header{' '}
+      <div className="text-center bg-gray-700 w-6/6 h-18 p-2 font-black text-white text-4xl">
+        header
       </div>
-      <div className="bg-gray-300 h-64  text-center ">body</div>
+   
       <div className="flex">
-  <div className="bg-gray-300 h-54 m-4 text-center text-blue-800 font-black text-2xl uppercase">
+
+
+
+  <div className="bg-gray-300 h-54 p-1  text-start text-blue-800 font-black text-2xl uppercase">
     body
   </div>
-  <div className="bg-gray-300 h-auto m-4 text-center font-normal text-blue-900 text-lg p-2 flex-1">
+  <div className="bg-gray-300 h-auto p-4 text-start font-normal text-blue-900 text-md p-2 flex-1">
     <p className="mb-2">
       2. Using Tailwind CSS Classes: Now that you have Tailwind set up, you can
       start using its utility classes in your components. Here are some examples:
@@ -34,6 +37,20 @@ export default function background() {
       grid layouts, such as <code>flex</code>, <code>flex-row</code>, <code>grid</code>, <code>grid-cols-3</code>, etc.
     </p>
   </div>
+</div>
+<div>
+<div className="flex flex-1 w-full">
+  <div className="bg-blue-100 flex-1 h-20"></div>
+  <div className="bg-blue-200 flex-1 h-20"></div>
+  <div className="bg-blue-300 flex-1 h-20"></div>
+  <div className="bg-blue-400 flex-1 h-20"></div>
+  <div className="bg-blue-500 flex-1 h-20"></div>
+  <div className="bg-blue-600 flex-1 h-20"></div>
+  <div className="bg-blue-700 flex-1 h-20"></div>
+  <div className="bg-blue-800 flex-1 h-20"></div>
+  <div className="bg-blue-900 flex-1 h-20"></div>
+</div>
+
 </div>
 
 
